@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "created": "2026-10-14",
+  "purpose": "Four animated visual-style examples for the repository homepage.",
+  "identity": "All characters depict the repository owner, director Merlin (@导演梅林君), using his authorized illustrated likeness. These are examples, not identity templates for new users.",
+  "method": "Three new styles use built-in image_gen for six independently drawn poses, followed by local alignment, Chinese typography and transparent GIF encoding. The recognizable-director pair is reused unchanged from an earlier completed collection.",
+  "reference_privacy": "Original photographs, private filesystem paths and conversation logs are not distributed. Full prompts and descriptive reference roles are included.",
+  "limitations": [
+    "Four-style demonstration, not a complete WeChat submission album.",
+    "480px GIFs are display previews; companion 240px GIFs are chat-size versions.",
+    "Playback-frame counts do not imply separately drawn images for every frame.",
+    "Technical and visual checks are recorded separately."
+  ],
+  "assets": [
+    {
+      "id": "recognizable-director",
+      "style": "偏写实大头",
+      "caption": "再来一条",
+      "kind": "existing animated sticker",
+      "source_description": "Previously completed personal creative-work sticker, item 12; both GIF sizes copied byte-for-byte.",
+      "outputs": [
+        {
+          "file": "recognizable-director.gif",
+          "format": "GIF",
+          "width": 480,
+          "height": 480,
+          "bytes": 1009321,
+          "sha256": "aa8724ce100e9451dbfbe2560650f87efadb554823ccc388e63b2e99ff4a00cb",
+          "has_transparency": true,
+          "frames": 24,
+          "unique_decoded_frames": 22,
+          "duration_ms": 1200,
+          "loop": 0,
+          "frame_delay_ms": [
+            50
+          ]
+        },
+        {
+          "file": "recognizable-director-240.gif",
+          "format": "GIF",
+          "width": 240,
+          "height": 240,
+          "bytes": 323876,
+          "sha256": "6e1a419e9df03d221aba82d621ed58c1cfe8aa2b00c41afcfcadb83b805dfe73",
+          "has_transparency": true,
+          "frames": 24,
+          "unique_decoded_frames": 22,
+          "duration_ms": 1200,
+          "loop": 0,
+          "frame_delay_ms": [
+            50
+          ]
+        }
+      ],
+      "generation": {
+        "tool": "built-in image_gen",
+        "newly_generated_for_this_update": false,
+        "drawn_poses": 6,
+        "reference_roles": [
+          "Previously approved single-person illustrated author character master; not redistributed."
+        ],
+        "prompts": [
+          {
+            "stage": "original six-pose generation",
+            "text": "Use case: illustration-story. Asset: production animation sprite sheet for ONE animated portrait sticker. Reference image is the sole identity AND illustration style master. Keep the exact same adult slender male likeness, narrow face, visible high forehead, messy parted ear-length dark hair, large black rounded-square glasses, thin moustache and long pointed chin goatee. Polished big-head caricature with realistic recognizable face, small adult body, bold clean black outline, detailed shading; NEVER generic child or another man. A single 1536x1024 landscape image divided invisibly into 3 columns and 2 rows: exactly 6 sequential FULL-BODY poses, 512x512 each, read left to right top row then bottom. In each cell use same fixed camera, consistent face/body size, fixed foot baseline around cell y=448, centered at cell x=256. All art (hair, hat, feet, arms, props) must stay within x=52..460 and y=36..454 of each 512px cell; generous empty margins. Smooth subtle successive poses for animation, preserve clothing and prop geometry consistently. Full body and props visible, no cropping, no inter-cell overlap. No text, letters, numbers, logos, watermark, borders, gridlines, panels, background scenery, floor or cast shadows. Request genuinely transparent alpha backdrop; if real alpha cannot be delivered use PERFECTLY FLAT pure #00FF00 chroma-key green background, including all gaps. NEVER simulated checkerboard. No green in any subject or props (use navy instead of green/teal when needed).\nSCENE: Black hoodie, glasses. Mini filmmaking setup: one handheld small clapperboard, camera hanging at waist. Blank board no writing.\nSIX FRAMES: clapper open; raises board; clapper begins closing; clapper shut with small motion lines; amused director nod; opens clapper again.\nDo not draw any caption. Clapper board is BLANK with simple black/white striped hinge, all six poses same position, small changes in hand/hinge/head only."
+          }
+        ],
+        "background_handling": "Original solid green chroma background removed locally before transparent GIF encoding."
+      },
+      "animation": {
+        "drawn_poses": 6,
+        "encoded_frames": 24,
+        "duration_ms": 1200,
+        "loop": 0,
+        "note": "Six separately drawn poses plus local auxiliary motion; 22 unique decoded frames are not 22 separately drawn poses."
+      },
+      "review": {
+        "prior_delivery_validation": {
+          "status": "PASS",
+          "record_date": "2026-09-10"
+        },
+        "current_copy_hash_check": {
+          "status": "PASS",
+          "scope": "Both sizes are byte-identical to the completed source files."
+        },
+        "actual_browser_playback": {
+          "status": "PASS",
+          "reviewer": "Codex root",
+          "reviewed_on": "2026-10-14",
+          "scope": "Combined browser preview of all four styles at both 480px and 240px.",
+          "evidence": "All eight GIFs loaded at their expected natural dimensions. Two separate browser observations confirmed changing drawn poses and readable captions; toy moved from chip-and-smoke shrug to calm, and clay from yawn back to typing."
+        }
+      }
+    },
+    {
+      "id": "comic-one-more-take",
+      "style": "清线漫画",
+      "caption": "再来亿条",
+      "kind": "new animated style sample",
+      "source_description": "New 清线漫画 animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "outputs": [
+        {
+          "file": "comic-one-more-take.gif",
+          "format": "GIF",
+          "width": 480,
+          "height": 480,
+          "bytes": 223908,
+          "sha256": "9e0f85154eebee02edd35872652409e672ece55328c367d0e378e8c1f0626d33",
+          "has_transparency": true,
+          "frames": 40,
+          "unique_decoded_frames": 6,
+          "duration_ms": 2000,
+          "loop": 0,
+          "frame_delay_ms": [
+            50
+          ]
+        },
+        {
+          "file": "comic-one-more-take-240.gif",
+          "format": "GIF",
+          "width": 240,
+          "height": 240,
+          "bytes": 95072,
+          "sha256": "aa89383e2188e7ea08e3b31099334b4d2004ad67ba8db1fc33e13412ac2b7dd0",
+          "has_transparency": true,
+          "frames": 40,
+          "unique_decoded_frames": 6,
+          "duration_ms": 2000,
+          "loop": 0,
+          "frame_delay_ms": [
+            50
+          ]
+        },
+        {
+          "file": "comic-one-more-take.png",
+          "format": "PNG",
+          "width": 240,
+          "height": 240,
+          "bytes": 25498,
+          "sha256": "f9d404ad16628b4dc3fb6d16619b065499f7108792a7e48f4db587c4097f3b57",
+          "has_transparency": true
+        }
+      ],
+      "generation": {
+        "tool": "built-in image_gen",
+        "newly_generated_for_this_update": true,
+        "drawn_poses": 6,
+        "native_alpha": true,
+        "reference_roles": [
+          "Approved author Avatar V2 identity and 清线漫画 style; not a photograph.",
+          "Earlier static joke illustration at ../showcase/comic-one-more-take.jpg."
+        ],
+        "prompts": [
+          {
+            "stage": "six-pose generation",
+            "text": "Use case: stylized-concept. Asset type: a six-pose transparent sprite sheet for a funny animated messaging sticker of the SAME adult man. The first reference gives his identity: voluminous swept black hair, black rectangular eyeglasses, long angular slim face, tiny moustache and pointed chin goatee, black blazer and teal blue T-shirt. The second gives clear-line comic style and one-more-take directing joke, NOT its text, chair, or papers. Render him in clean European clear-line comic drawing: confidently inked crisp black outlines, simple flat cel colors, expressive elastic eyebrows and mouth, no realistic rendering, no photographic texture. Transparent background with real alpha, no white fill, no checkerboard. Output exactly 3 columns by 2 rows, six equal invisible cells, reading left-to-right top-to-bottom. All six cells show the same FULL BODY director with identical outfit: black jacket, blue T-shirt, dark trousers and black/white sneakers, holding a black-and-white clapperboard. Same character scale and planted foot position in every cell, centered with generous 15 percent transparent margins in EACH cell; no part crosses cell boundaries. Every pose must be separately drawn, with clearly changing facial expression and arm action. Sequence: 1 tired director slumped slightly looking at closed clapperboard; 2 head lifts with an idea, eyebrows raised and grin starting; 3 holding clapperboard in left hand near waist, right index finger confidently raised to request one more take, enthusiastic smile; 4 bright energetic big open smile, right hand reaches toward clapperboard to snap its hinged bar shut; 5 relaxed pleased smile after the clap, clapperboard lowered; 6 shoulders settling, tired bemused smile returns, board near starting position for looping. Two arms and two legs only, clear complete hands and feet, anatomically coherent clapperboard. Keep character stable and proportions consistent. NO words, lettering, captions, numbers, watermarks, panels, grid lines, background shapes, floor shadows or extra props. Crisp collectible comic sticker artwork intended to be legible at 240px."
+          }
+        ],
+        "final_encoding_source_sha256": "ea46d698556e5d26673ebc8e1bab6b99233a32f6ed78fe76829e1b844c11b648"
+      },
+      "local_processing": {
+        "caption": "Chinese caption typeset locally after drawing.",
+        "alignment": "Common 0.88 scale and per-cell placement aligned feet; no synthetic animation movement.",
+        "encoding": "Six poses held for explicit 50 ms frames, palette encoded with binary GIF transparency; no crossfade or optical flow.",
+        "static_export": "240px transparent hero pose exported with the animation."
+      },
+      "animation": {
+        "drawn_poses": 6,
+        "pose_hold_frames": [
+          7,
+          4,
+          8,
+          5,
+          8,
+          8
+        ],
+        "frame_delay_ms": 50,
+        "encoded_frames": 40,
+        "duration_ms": 2000,
+        "loop": 0,
+        "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses."
+      },
+      "review": {
+        "technical": {
+          "status": "PASS",
+          "gif_hashes_match_reviewed_outputs": true,
+          "all_gif_frames_have_transparency": true,
+          "main_under_500000_bytes": true
+        },
+        "pose_and_decoded_strip": {
+          "status": "PASS",
+          "reviewer": "Codex comic_motion",
+          "reviewed_at": "2026-10-14T21:09:34.921Z",
+          "observations": [
+            "Recognizable black hair, rectangular eyeglasses, moustache and pointed goatee; stable black jacket and teal T-shirt.",
+            "Six separately drawn expressions and arm gestures: tired, idea, raised index finger, working clapperboard, pleased, return.",
+            "Foot centers aligned; no artificial whole-image wobble or crossfade.",
+            "Chinese caption 再来亿条 readable with white contour on dark.",
+            "Complete hands, shoes and prop; no clipped edges or checkerboard remnants.",
+            "Actual browser captures showed different poses across repeated playback observations; light and dark backgrounds remain transparent."
+          ]
+        },
+        "root_pose_strip_review": {
+          "status": "PASS",
+          "scope": "Root reviewer separately viewed all six poses on light and dark backgrounds."
+        },
+        "actual_browser_playback": {
+          "status": "PASS",
+          "reviewer": "Codex root",
+          "reviewed_on": "2026-10-14",
+          "scope": "Combined browser preview of all four styles at both 480px and 240px.",
+          "evidence": "All eight GIFs loaded at their expected natural dimensions. Two separate browser observations confirmed changing drawn poses and readable captions; toy moved from chip-and-smoke shrug to calm, and clay from yawn back to typing."
+        }
+      }
+    },
+    {
+      "id": "toy-cpu",
+      "style": "软萌潮玩 3D",
+      "caption": "CPU烧了",
+      "kind": "new animated style sample",
+      "source_description": "New 软萌潮玩 3D animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "outputs": [
+        {
+          "file": "toy-cpu.gif",
+          "format": "GIF",
+          "width": 480,
+          "height": 480,
+          "bytes": 307965,
+          "sha256": "a21bcc4ea3b01ca99d8a7ab24583bb5bde8e0b12c95d8edbcf8586b9680b856c",
+          "has_transparency": true,
+          "frames": 40,
+          "unique_decoded_frames": 6,
+          "duration_ms": 2000,
+          "loop": 0,
+          "frame_delay_ms": [
+            50
+          ]
+        },
+        {
+          "file": "toy-cpu-240.gif",
+          "format": "GIF",
+          "width": 240,
+          "height": 240,
+          "bytes": 122185,
+          "sha256": "8e485e695ab4bbdff3bdbd4373e7af38b61b39f7867f96e334aa643f7ed6e4ad",
+          "has_transparency": true,
+          "frames": 40,
+          "unique_decoded_frames": 6,
+          "duration_ms": 2000,
+          "loop": 0,
+          "frame_delay_ms": [
+            50
+          ]
+        },
+        {
+          "file": "toy-cpu.png",
+          "format": "PNG",
+          "width": 480,
+          "height": 480,
+          "bytes": 60537,
+          "sha256": "2f4974c68bbacacc6b69788bc8025213c8e5af9c57daacd2eb0effdce96ca639",
+          "has_transparency": true
+        }
+      ],
+      "generation": {
+        "tool": "built-in image_gen",
+        "newly_generated_for_this_update": true,
+        "drawn_poses": 6,
+        "native_alpha": true,
+        "reference_roles": [
+          "Approved author Avatar V2 identity and 软萌潮玩 3D style; not a photograph.",
+          "Earlier static joke illustration at ../showcase/toy-cpu.jpg."
+        ],
+        "prompts": [
+          {
+            "stage": "six-pose generation",
+            "text": "Use case: stylized-concept.\nCreate a production animation pose sheet, native transparent background RGBA, exactly six full-body figures in a perfectly regular 3 columns by 2 rows invisible grid. This is ONE person's reaction animated sticker with six successive actually drawn poses, not six alternative styles. First input image is the identity reference: adult man with sculpted thick wavy black hair, black rectangular eyeglasses, narrow moustache plus pointed short chin goatee, black casual jacket over blue T-shirt. Second image is the target style and humorous CPU metaphor reference. Make the same person as an extremely cute soft rounded matte vinyl designer toy: large round head, tiny short torso and limbs, subtle real 3D volume, warm peach skin, soft studio lighting, no photorealistic skin, no 2D comic ink. Lock head size, hairstyle, face, body proportions and outfit across every pose. Full short legs and black/white shoes visible in all six cells.\nThe six poses read LEFT TO RIGHT then TOP TO BOTTOM:\n1. Neutral deadpan face, arms resting. Calm adult face. No chip or smoke.\n2. One index finger lightly tapping his temple, one eyebrow raised, mouth puzzled; other arm down.\n3. Both eyebrows rise, small red cartoon computer chip emerges just above hair, a small solid pale-gray smoke curl rises from chip. Eyes widen, mouth tiny o. Hands start lifting. No text or letters on chip.\n4. Comic exhausted dumbfounded face, both palms spread upward in a broad clear shrug. Red chip above hair with a large sculpted pale-gray smoke curl. The chip may have two X marks and a zigzag mouth as a tiny cartoon face, but no letters.\n5. Shrug relaxing, tired half-lidded eyes, one smaller wisp dissipates, chip starts settling back into hair. Still look like SAME toy.\n6. Almost back to first neutral stance, a tiny resigned smile, arms returning down, chip and smoke gone. Should join to pose 1.\nEach pose has same camera frontal viewpoint, same centered feet baseline and head height, same scale; no sideways position changes, no global wobble. Center each character in its cell; leave generous clear transparent space of at least 14% from every cell border INCLUDING smoke. Entire character+smoke must fit inside its own cell, no overlaps or cutoffs. Truly transparent empty pixels everywhere outside figures; no ground shadow patches, no white background, no checkered background, no scene, no borders, no grid lines, no labels, no captions, no watermark. No typography; Chinese caption will be added separately. Landscape canvas approximately 3:2, six uniform square cells. Crisp isolated sculpted forms, cutout-ready alpha."
+          }
+        ],
+        "final_encoding_source_sha256": "d5218e192fd62ed3a04345df3d8d4dfc5353629825f1da1ffd78738217ec5c84"
+      },
+      "local_processing": {
+        "caption": "Chinese caption typeset locally after drawing.",
+        "alignment": "Complete cutouts translated to align shoe centers and soles; no separate part scaling.",
+        "encoding": "Six poses held for explicit 50 ms frames, palette encoded with binary GIF transparency; no crossfade or optical flow.",
+        "static_export": "480px PNG decoded from playback frame 17 of the final GIF."
+      },
+      "animation": {
+        "drawn_poses": 6,
+        "pose_hold_frames": [
+          7,
+          5,
+          5,
+          11,
+          6,
+          6
+        ],
+        "frame_delay_ms": 50,
+        "encoded_frames": 40,
+        "duration_ms": 2000,
+        "loop": 0,
+        "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses."
+      },
+      "review": {
+        "technical": {
+          "status": "PASS",
+          "gif_hashes_match_reviewed_outputs": true,
+          "all_gif_frames_have_transparency": true,
+          "main_under_500000_bytes": true
+        },
+        "pose_and_decoded_strip": {
+          "status": "PASS",
+          "reviewer": "Codex toy_motion",
+          "reviewed_at": "2026-10-14",
+          "observations": [
+            "Six genuinely distinct sculpted 3D toy poses: neutral, temple tap, startled chip emerging, worried shrug, tired settling, neutral return.",
+            "Identity retains thick sculpted black hair, rectangular black glasses, moustache and pointed chin beard, blue T-shirt and black jacket.",
+            "Hands, feet, smoke and chip are fully visible. No extra limbs or cross-cell fragments observed.",
+            "Chinese caption CPU烧了 is correctly typeset and readable against both light and dark backgrounds.",
+            "Per-cell shoe-center and sole-baseline translation corrects the generated uneven grid. Same scale retained; no wobble, crossfade or optical flow added.",
+            "GIF decoded six-pose contact sheet reviewed on light and dark backgrounds. Alpha edges clean and surrounding area transparent."
+          ]
+        },
+        "root_pose_strip_review": {
+          "status": "PASS",
+          "scope": "Root reviewer separately viewed all six poses on light and dark backgrounds."
+        },
+        "actual_browser_playback": {
+          "status": "PASS",
+          "reviewer": "Codex root",
+          "reviewed_on": "2026-10-14",
+          "scope": "Combined browser preview of all four styles at both 480px and 240px.",
+          "evidence": "All eight GIFs loaded at their expected natural dimensions. Two separate browser observations confirmed changing drawn poses and readable captions; toy moved from chip-and-smoke shrug to calm, and clay from yawn back to typing."
+        }
+      }
+    },
+    {
+      "id": "clay-off-duty",
+      "style": "手作黏土",
+      "caption": "脑子下班了",
+      "kind": "new animated style sample",
+      "source_description": "New 手作黏土 animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "outputs": [
+        {
+          "file": "clay-off-duty.gif",
+          "format": "GIF",
+          "width": 480,
+          "height": 480,
+          "bytes": 425483,
+          "sha256": "e5097f37bc7f5d9b894a1e98ac3b22a7e68a5945013a3d4e6447bb6fd7b10371",
+          "has_transparency": true,
+          "frames": 40,
+          "unique_decoded_frames": 6,
+          "duration_ms": 2000,
+          "loop": 0,
+          "frame_delay_ms": [
+            50
+          ]
+        },
+        {
+          "file": "clay-off-duty-240.gif",
+          "format": "GIF",
+          "width": 240,
+          "height": 240,
+          "bytes": 158129,
+          "sha256": "294eb8264adc61798f9a9838b3bf18528ed011938d073239bcaacf7f9ec1518c",
+          "has_transparency": true,
+          "frames": 40,
+          "unique_decoded_frames": 6,
+          "duration_ms": 2000,
+          "loop": 0,
+          "frame_delay_ms": [
+            50
+          ]
+        },
+        {
+          "file": "clay-off-duty.png",
+          "format": "PNG",
+          "width": 240,
+          "height": 240,
+          "bytes": 53457,
+          "sha256": "2133f457b437206a881e8033bb2cfa4997629dfece497a7eea5af8c72f46d62b",
+          "has_transparency": true
+        }
+      ],
+      "generation": {
+        "tool": "built-in image_gen",
+        "newly_generated_for_this_update": true,
+        "drawn_poses": 6,
+        "native_alpha": true,
+        "reference_roles": [
+          "Approved author Avatar V2 identity and 手作黏土 style; not a photograph.",
+          "Earlier static joke illustration at ../showcase/clay-off-duty.jpg."
+        ],
+        "prompts": [
+          {
+            "stage": "six-pose generation",
+            "text": "Use case: stylized-concept.\nAsset type: transparent animation key pose sprite sheet for a Chinese personal reaction sticker.\nCreate SIX separately drawn stop-motion CLAY poses of the SAME adult man, arranged in an exact invisible 3 columns x 2 rows grid, read left to right then top to bottom. Each cell must be the same size, with character and keyboard aligned on the same ground baseline and at the same apparent scale. Landscape 3:2 sheet, six square cells. Full genuine transparent alpha background everywhere outside the clay figure and small keyboard; no floor, no shadows on an opaque sheet, no visible grid.\nReferences: image 1 gives identity and hand-made clay material: fluffy sculpted black hair, black rectangular glasses, mustache, small patch under lip and pointed goatee, black casual jacket, blue T-shirt. Image 2 gives comic exhausted pose and tiny keyboard. Keep this adult man's recognizable face and distinct clay texture, but render a MUCH more rounded big-head small-body clay puppet, head about half total height. Clear fingerprints, uneven hand-pinched edges, soft matte colored modelling clay, tactile plasticine, charming rather than photorealistic human skin. Preserve glasses, moustache/goatee and blue shirt throughout.\nAnimation is seated behind a compact gray clay computer keyboard (no screen, no table): 1) alert, gently smiling, both hands typing. 2) eyelids droop, shoulders slump, two hands resting on keys. 3) wide yawn, eyes closed, both hands still visible beside keyboard. 4) comic exhaustion: face tilted toward viewer and head squashed slightly onto the keyboard, cheek rests on keys, arms spread loosely to either side, both hands visible; face NOT hidden. 5) raises head halfway, eyes tired but open, both hands support body beside keyboard. 6) sits almost upright again, small determined smile, both hands poised to resume typing; naturally reconnects to pose 1.\nAvoid full-length sprawling body or large props. Only one person per cell and exactly two arms/two hands. Same keyboard in every cell. 15% empty transparent safety margin inside each cell so nothing can touch or cross cell borders. No clipped hair, hands, keyboard. No duplicated poses. No text, symbols, caption, letters, watermark, white outline, drop-shadow or decoration. No checkerboard painted into image. This is a professional clean cutout keyframe sheet, not a collage with white cards."
+          },
+          {
+            "stage": "layout repair used for final artwork",
+            "text": "Fix ONLY the spacing/layout of this SIX-pose clay puppet animation sprite sheet. Keep the exact same six distinct poses, adult man's identity, hand-made clay texture, black wavy hair, rectangular glasses, moustache/pointed goatee, black jacket, blue T-shirt, keyboard, expressions and two hands. Keep genuine transparent alpha background.\nThe current bottom-left pose spreads its right hand across the invisible cell boundary. This must be fixed. Create a 3 columns x 2 rows regular grid with SIX SQUARE CELLS. Reduce EVERY character-and-keyboard group to 70% of its current scale, uniformly. Center every group on its own invisible cell, with the keyboard at 76% of that cell's height. Nothing may cross a cell boundary. Leave at least 15% transparent empty margin on ALL FOUR SIDES of EVERY cell, including the bottom-left wide-spread hands. The arms may bend slightly to keep BOTH complete hands comfortably inside the cell. All six characters should still be the same scale and baseline; do NOT independently enlarge heads. Entire images isolated cleanly on transparency. No floor, no painted background, no grids, no text or captions, no new objects, no new poses."
+          }
+        ],
+        "final_encoding_source_sha256": "6a7f42cf460ee4c3c027cbf21bc8726f309fe88eb1eb1e82f2e3b69abfbcbada"
+      },
+      "local_processing": {
+        "caption": "Chinese caption typeset locally after drawing.",
+        "alignment": "Complete cutouts extracted from uneven rows and translated into equal cells, aligned at keyboard baselines; no anatomy removed.",
+        "encoding": "Six poses held for explicit 50 ms frames, palette encoded with binary GIF transparency; no crossfade or optical flow.",
+        "static_export": "240px transparent hero pose exported with the animation."
+      },
+      "animation": {
+        "drawn_poses": 6,
+        "pose_hold_frames": [
+          6,
+          5,
+          7,
+          12,
+          6,
+          4
+        ],
+        "frame_delay_ms": 50,
+        "encoded_frames": 40,
+        "duration_ms": 2000,
+        "loop": 0,
+        "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses."
+      },
+      "review": {
+        "technical": {
+          "status": "PASS",
+          "gif_hashes_match_reviewed_outputs": true,
+          "all_gif_frames_have_transparency": true,
+          "main_under_500000_bytes": true
+        },
+        "pose_and_decoded_strip": {
+          "status": "PASS",
+          "reviewer": "Codex clay_motion",
+          "reviewed_at": "2026-10-14",
+          "observations": [
+            "identityAndOutfit: PASS — fluffy black hair, rectangular glasses, mustache/pointed goatee, black jacket and blue shirt remain consistent.",
+            "sixDistinctDrawnPoses: PASS — alert typing, drooping eyelids, yawn, head on keyboard, tired recovery and upright preparation.",
+            "anatomy: PASS — both hands and face remain visible, no extra limbs; full keyboard and hair retained.",
+            "caption: PASS — 脑子下班了 readable in both light/dark views.",
+            "alpha: PASS — genuine native alpha; decoded GIF edges clean on light and dark backgrounds, no painted checkerboard.",
+            "scaleAndRegistration: PASS — shared scale, keyboard baseline registered by translating complete cutouts; no anatomy was clipped or removed."
+          ]
+        },
+        "root_pose_strip_review": {
+          "status": "PASS",
+          "scope": "Root reviewer separately viewed all six poses on light and dark backgrounds."
+        },
+        "actual_browser_playback": {
+          "status": "PASS",
+          "reviewer": "Codex root",
+          "reviewed_on": "2026-10-14",
+          "scope": "Combined browser preview of all four styles at both 480px and 240px.",
+          "evidence": "All eight GIFs loaded at their expected natural dimensions. Two separate browser observations confirmed changing drawn poses and readable captions; toy moved from chip-and-smoke shrug to calm, and clay from yawn back to typing."
+        }
+      }
+    }
+  ]
+}
