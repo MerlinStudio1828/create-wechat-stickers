@@ -1,6 +1,6 @@
 interface:
   display_name: "微信表情包工坊"
-  short_description: "上传照片，制作活泼搞笑的个人透明动态表情及完整微信投稿素材包"
-  default_prompt: "使用 $create-wechat-stickers，把我上传的照片做成活泼搞笑的微信透明 GIF 表情包，并打包横幅、封面、头像及投稿素材。"
+  short_description: "上传照片，可先挑多种画风小样，再制作个人动态表情与完整配套素材"
+  default_prompt: "使用 $create-wechat-stickers，先用我的照片做几种画风小样供我挑选，选定后再制作个人微信表情包与配套素材。"
 policy:
   allow_implicit_invocation: true
