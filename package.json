@@ -1,0 +1,17 @@
+{
+  "name": "create-wechat-stickers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Photo-based WeChat animated sticker skill, encoder and complete asset packaging workflow.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "setup": "npm ci --prefix skills/create-wechat-stickers",
+    "check:syntax": "node --check skills/create-wechat-stickers/scripts/runtime.cjs && node --check skills/create-wechat-stickers/scripts/encode.cjs && node --check skills/create-wechat-stickers/scripts/package.cjs && node --check scripts/check-runtime.cjs",
+    "check:runtime": "node scripts/check-runtime.cjs",
+    "check": "npm run check:syntax && npm run check:runtime",
+    "encode": "node skills/create-wechat-stickers/scripts/encode.cjs",
+    "package:stickers": "node skills/create-wechat-stickers/scripts/package.cjs"
+  }
+}

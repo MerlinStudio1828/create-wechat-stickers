@@ -1,0 +1,26 @@
+# Dependencies and local tools
+node_modules/
+.npm/
+.DS_Store
+Thumbs.db
+
+# Private input photos and generated projects stay local.
+/projects/
+/work/
+/photos/
+/originals/
+/private/
+/output/
+/delivery/
+/dist/
+*.zip
+!/dist/
+/dist/*
+!/dist/create-wechat-stickers.zip
+!/dist/README.md
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.log
