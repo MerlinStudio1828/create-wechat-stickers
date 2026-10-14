@@ -1,22 +1,54 @@
 # 微信表情包工坊
 
-**把你本人，做成群聊里最有戏的那个人。**
+**先挑喜欢的画风，再让你的表情包替你说话。**
 
-上传照片，说一句「做微信表情包」。把你的日常、经历和口头禅，做成有辨识度的静态梗图与透明动态表情。
+上传照片，和 AI 聊聊你想要的感觉：**软萌可爱、接近真人、漫画吐槽、潮玩 3D、手作黏土……** 你可以先让它生成几种画风小样，挑中喜欢的，再把日常、经历和口头禅做成一套会动的自己。
 
-[安装使用](#安装) · [看看个人梗](#把经历变成只有你才有的梗) · [完整使用说明](docs/usage.md) · [制作案例](docs/case-study.md) · [下载技能 ZIP](https://github.com/MerlinStudio1828/create-wechat-stickers/raw/refs/heads/main/dist/create-wechat-stickers.zip)
+**不懂画风名字也没关系。** 说“更萌一点”“像我本人一点”“再离谱一点”，也能继续调整。
 
-## 同一个人，可以有很多种戏
+[先试画风](#先看小样选中了再做整套) · [安装使用](#安装) · [看看个人梗](#把经历变成只有你才有的梗) · [完整使用说明](docs/usage.md) · [下载技能 ZIP](https://github.com/MerlinStudio1828/create-wechat-stickers/raw/refs/heads/main/dist/create-wechat-stickers.zip)
+
+## 同一个我，四种画风，都能动
+
+下面都是 **@导演梅林君 本人形象的实际 GIF**。脸还是熟悉的那张脸，画法和笑点可以很不一样。
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="examples/showcase/comic-one-more-take.jpg" width="260" alt="清线漫画：导演顶着黑眼圈举起一根手指，身边堆满废稿，配字再来亿条"><br><strong>清线漫画</strong><br>导演的“最后一条”，你信过几次？</td>
-    <td align="center" width="33%"><img src="examples/showcase/toy-cpu.jpg" width="260" alt="潮玩3D：梅林摊手强装镇定，头顶芯片冒烟，配字CPU烧了"><br><strong>潮玩 3D</strong><br>表面还能聊，脑子已经冒烟。</td>
-    <td align="center" width="33%"><img src="examples/showcase/clay-off-duty.jpg" width="260" alt="手作黏土：梅林瘫在键盘上，旁边放着咖啡，配字脑子下班了"><br><strong>手作黏土</strong><br>人还在工位，脑子先打了卡。</td>
+    <td align="center" width="50%"><strong>偏写实大头 · 保留本人的神态</strong><br><img src="examples/styles/recognizable-director.gif" width="280" alt="偏写实大头本人动态表情：导演举场记板，再来一条"><br>「再来一条」——说这话时，眼神格外真诚。</td>
+    <td align="center" width="50%"><strong>清线漫画 · 戏多一点才好玩</strong><br><img src="examples/styles/comic-one-more-take.gif" width="280" alt="清线漫画动态表情：导演从疲惫到灵感出现，举手请求再来亿条"><br>「再来亿条」——最后一条，也可以有很多条。</td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><strong>软萌潮玩 3D · 可爱也能当嘴替</strong><br><img src="examples/styles/toy-cpu.gif" width="280" alt="软萌潮玩3D动态表情：头顶芯片冒烟，本人摊手，CPU烧了"><br>「CPU烧了」——外表很淡定，脑内已过热。</td>
+    <td align="center" width="50%"><strong>手作黏土 · 连崩溃都软乎乎的</strong><br><img src="examples/styles/clay-off-duty.gif" width="280" alt="手作黏土动态表情：本人打字到困倦，软软趴到键盘上，脑子下班了"><br>「脑子下班了」——人还在，脑子已打卡。</td>
   </tr>
 </table>
 
-这三张是为本页新做的**静态画风示例**。下方展示已有的**透明动态 GIF**。所有人物均为作者梅林本人的卡通形象；你使用时，会以你上传的照片建立你的角色。
+这四款是风格示例，不是固定模板。**你可以要很萌、很写实，也可以要很有梗；还可以把喜欢的画风和自己的生活梗组合起来。** 新用户上传自己的照片，就以自己的形象制作。三款漫画／3D／黏土动画为本页新绘，偏写实动画来自此前完成的本人作品；[提示词与检查记录](examples/styles/production.json)随示例公开。
+
+## 先看小样，选中了再做整套
+
+1. **描述感觉**：上传照片，说想更萌、更像本人、更夸张，或者直接给画风参考。
+2. **先看不同版本的自己**：让 AI 先做 3–6 种画风小样；也可以明确要求每种一张动态 GIF。
+3. **选中并微调**：例如“选第 2 种，眼镜保留，头发蓬松一点，动作再夸张些”。
+4. **扩展成整套**：确定角色画风后，再制作常用反应、个人梗和配套素材。
+
+想试试看，可以直接复制：
+
+```text
+用我上传的照片先做 4 种画风小样：
+软萌 Q 版、偏写实漫画、清线漫画、手作黏土。
+每种都做一张“我来了”的透明动态 GIF，保留我的辨识特征。
+先给我编号对比，等我选好喜欢的画风，再做整套。
+```
+
+不确定怎么选，也可以只说：
+
+```text
+我想做自己的表情包，但还不知道适合什么画风。
+请按我的照片推荐几种差异明显的方向，先做小样给我挑。
+```
+
+已经有想法，就直接说“按这个画风做 12 张”，无需先做一轮试稿。你也可以要求“第 2 种的脸＋第 4 种的配色”，先看一张融合小样再继续。
 
 ## 把经历变成只有你才有的梗
 
@@ -48,10 +80,11 @@
 
 ## 想要哪种味道，都可以直接说
 
-默认制作活泼大头 Q 版，也可以指定**清线漫画、潮玩 3D、手作黏土**等风格。支持静态梗图、透明动态 GIF，以及横幅、封面、头像等微信投稿配套素材。
+画风可以用名字、感觉或参考图来描述；日系、黑白线稿、像素、复古漫画等方向也可以提出，让 AI 先做小样验证效果。支持静态梗图、透明动态 GIF，以及横幅、封面、头像等微信投稿配套素材。未指定画风且希望直接开做时，采用活泼大头 Q 版。
 
 | 方向 | 适合怎么用 | 可以这样提要求 |
 | --- | --- | --- |
+| **写实／偏写实** | 想保留真人神态、熟人一眼认出 | “保留我的脸部细节，卡通比例不要太夸张。” |
 | **活泼大头 Q 版** | 日常聊天、夸张反应、个人经历 | “保留我的眼镜和胡须，动作放开一点。” |
 | **清线漫画** | 吐槽、反差梗、戏很多的表情 | “像上面的导演梗，线条利落，表情夸张。” |
 | **潮玩 3D** | 可爱、震惊、无语、求抱抱 | “做成圆润的潮玩小人，别太写实。” |
@@ -106,7 +139,7 @@ Codex 支持从 GitHub 仓库安装本地技能，并根据任务描述自动选
 
 ## 开始使用
 
-安装好后，上传几张能看清人物的照片，再发送：
+安装好后，上传几张能看清人物的照片。想先选画风，用上面的[小样请求](#先看小样选中了再做整套)；想直接开做，可以发送：
 
 ```text
 做微信表情包。
@@ -198,7 +231,7 @@ dist/                          可直接分享的技能 ZIP
 
 给朋友发送 [这个仓库地址](https://github.com/MerlinStudio1828/create-wechat-stickers) 即可；他可以阅读首页、看动图、安装技能，再上传自己的照片。反馈问题时请描述操作、预期与实际结果；有个人照片的示例可以先只提供不含隐私的截图。
 
-代码与流程文档使用 [MIT License](LICENSE)。`examples/` 和技能 `assets/` 中的人物图片是效果演示，不包含在 MIT 授权中；如需复用作者人物形象，请先联系作者。新用户应以自己的或已获授权的照片制作表情。素材来源和实际尺寸见 [示例来源记录](examples/provenance.json)。首页三张新画风图使用内置图像生成工具制作，完整提示词见 [画风示例生成记录](examples/showcase/prompts.json)。
+代码与流程文档使用 [MIT License](LICENSE)。`examples/` 和技能 `assets/` 中的人物图片是效果演示，不包含在 MIT 授权中；如需复用作者人物形象，请先联系作者。新用户应以自己的或已获授权的照片制作表情。素材来源和实际尺寸见 [示例来源记录](examples/provenance.json)。首页新增的清线漫画、潮玩 3D、黏土动态小样使用内置图像生成工具绘制独立动作，再本地排字和编码；完整提示词与检查记录见 [动态画风示例记录](examples/styles/production.json)。早先的静态画风稿仍保留在 `examples/showcase/`，其提示词见 [静态稿生成记录](examples/showcase/prompts.json)。
 
 A Codex skill for turning your photos and everyday stories into expressive, personal stickers—in multiple visual styles, with animated GIFs and complete delivery assets.
 
