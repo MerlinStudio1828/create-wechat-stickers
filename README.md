@@ -2,28 +2,61 @@
 
 **先挑喜欢的画风，再让你的表情包替你说话。**
 
-上传照片，和 AI 聊聊你想要的感觉：**软萌可爱、接近真人、漫画吐槽、潮玩 3D、手作黏土……** 你可以先让它生成几种画风小样，挑中喜欢的，再把日常、经历和口头禅做成一套会动的自己。
+上传照片，和 AI 聊聊你想要的感觉：**软萌可爱、接近真人、热血动漫、黑白暴漫、复古像素、毛绒玩偶、水彩水墨……** 你可以先让它生成几种画风小样，挑中喜欢的，再把日常、经历和口头禅做成一套会动的自己。
 
 **不懂画风名字也没关系。** 说“更萌一点”“像我本人一点”“再离谱一点”，也能继续调整。
 
-[先试画风](#先看小样选中了再做整套) · [安装使用](#安装) · [看看个人梗](#把经历变成只有你才有的梗) · [完整使用说明](docs/usage.md) · [下载技能 ZIP](https://github.com/MerlinStudio1828/create-wechat-stickers/raw/refs/heads/main/dist/create-wechat-stickers.zip)
+[看 12 种动态画风](#同一个我12-种画风都能动) · [先试画风](#先看小样选中了再做整套) · [安装使用](#安装) · [看看个人梗](#把经历变成只有你才有的梗) · [完整使用说明](docs/usage.md) · [下载技能 ZIP](https://github.com/MerlinStudio1828/create-wechat-stickers/raw/refs/heads/main/dist/create-wechat-stickers.zip)
 
-## 同一个我，四种画风，都能动
+## 同一个我，12 种画风，都能动
 
-下面都是 **@导演梅林君 本人形象的实际 GIF**。脸还是熟悉的那张脸，画法和笑点可以很不一样。
+**可爱不止一种，搞笑也不只有一种画法。** 下面 12 款都是 @导演梅林君 本人形象的实际 GIF：保留眼镜、发型、胡须等辨识点，用不同画法演出不同情绪。
+
+喜欢哪种，直接告诉 AI 编号或名字；也可以说“再萌一点”“再离谱一点”。**点击动图可打开对应的 240px 透明 GIF。**
+
+### 想要可爱？先看这三种
 
 <table>
   <tr>
-    <td align="center" width="50%"><strong>偏写实大头 · 保留本人的神态</strong><br><img src="examples/styles/recognizable-director.gif" width="280" alt="偏写实大头本人动态表情：导演举场记板，再来一条"><br>「再来一条」——说这话时，眼神格外真诚。</td>
-    <td align="center" width="50%"><strong>清线漫画 · 戏多一点才好玩</strong><br><img src="examples/styles/comic-one-more-take.gif" width="280" alt="清线漫画动态表情：导演从疲惫到灵感出现，举手请求再来亿条"><br>「再来亿条」——最后一条，也可以有很多条。</td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><strong>软萌潮玩 3D · 可爱也能当嘴替</strong><br><img src="examples/styles/toy-cpu.gif" width="280" alt="软萌潮玩3D动态表情：头顶芯片冒烟，本人摊手，CPU烧了"><br>「CPU烧了」——外表很淡定，脑内已过热。</td>
-    <td align="center" width="50%"><strong>手作黏土 · 连崩溃都软乎乎的</strong><br><img src="examples/styles/clay-off-duty.gif" width="280" alt="手作黏土动态表情：本人打字到困倦，软软趴到键盘上，脑子下班了"><br>「脑子下班了」——人还在，脑子已打卡。</td>
+    <td align="center" width="33%"><strong>01 · 软萌 Q 版</strong><br><a href="examples/styles/soft-cute-hug-240.gif"><img src="examples/styles/soft-cute-hug.gif" width="220" alt="01 软萌 Q 版：梅林本人动态表情，抱抱充电"></a><br>「抱抱充电」<br><sub>圆润二维、软乎乎的治愈感</sub></td>
+    <td align="center" width="33%"><strong>02 · 潮玩 3D</strong><br><a href="examples/styles/toy-cpu-240.gif"><img src="examples/styles/toy-cpu.gif" width="220" alt="02 潮玩 3D：梅林本人动态表情，CPU烧了"></a><br>「CPU烧了」<br><sub>立体小人，也会脑内冒烟</sub></td>
+    <td align="center" width="33%"><strong>03 · 毛绒玩偶</strong><br><a href="examples/styles/plush-cheer-240.gif"><img src="examples/styles/plush-cheer.gif" width="220" alt="03 毛绒玩偶：梅林本人动态表情，给你打气"></a><br>「给你打气」<br><sub>像能抱在怀里的小玩偶</sub></td>
   </tr>
 </table>
 
-这四款是风格示例，不是固定模板。**你可以要很萌、很写实，也可以要很有梗；还可以把喜欢的画风和自己的生活梗组合起来。** 新用户上传自己的照片，就以自己的形象制作。三款漫画／3D／黏土动画为本页新绘，偏写实动画来自此前完成的本人作品；[提示词与检查记录](examples/styles/production.json)随示例公开。
+### 熟悉的自己，也能很有戏
+
+<table>
+  <tr>
+    <td align="center" width="33%"><strong>04 · 偏写实大头</strong><br><a href="examples/styles/recognizable-director-240.gif"><img src="examples/styles/recognizable-director.gif" width="220" alt="04 偏写实大头：梅林本人动态表情，再来一条"></a><br>「再来一条」<br><sub>保留熟悉的脸和神态</sub></td>
+    <td align="center" width="33%"><strong>05 · 清线漫画</strong><br><a href="examples/styles/comic-one-more-take-240.gif"><img src="examples/styles/comic-one-more-take.gif" width="220" alt="05 清线漫画：梅林本人动态表情，再来亿条"></a><br>「再来亿条」<br><sub>利落线条，导演的戏很多</sub></td>
+    <td align="center" width="33%"><strong>06 · 日系热血动漫</strong><br><a href="examples/styles/anime-fired-up-240.gif"><img src="examples/styles/anime-fired-up.gif" width="220" alt="06 日系热血动漫：梅林本人动态表情，燃起来了"></a><br>「燃起来了」<br><sub>赛璐璐色块，情绪直接拉满</sub></td>
+  </tr>
+</table>
+
+### 发进群聊，就要让人记住
+
+<table>
+  <tr>
+    <td align="center" width="33%"><strong>07 · 黑白暴漫</strong><br><a href="examples/styles/monochrome-meme-240.gif"><img src="examples/styles/monochrome-meme.gif" width="220" alt="07 黑白暴漫：梅林本人动态表情，我裂开了"></a><br>「我裂开了」<br><sub>黑白粗线，夸张才有梗</sub></td>
+    <td align="center" width="33%"><strong>08 · 复古像素</strong><br><a href="examples/styles/pixel-level-up-240.gif"><img src="examples/styles/pixel-level-up.gif" width="220" alt="08 复古像素：梅林本人动态表情，又升级了"></a><br>「又升级了」<br><sub>把自己变成游戏里的角色</sub></td>
+    <td align="center" width="33%"><strong>09 · 剪纸拼贴</strong><br><a href="examples/styles/paper-cut-applause-240.gif"><img src="examples/styles/paper-cut-applause.gif" width="220" alt="09 剪纸拼贴：梅林本人动态表情，给你鼓掌"></a><br>「给你鼓掌」<br><sub>层层纸片，掌声也有质感</sub></td>
+  </tr>
+</table>
+
+### 想要质感？换一种画法
+
+<table>
+  <tr>
+    <td align="center" width="33%"><strong>10 · 水彩绘本</strong><br><a href="examples/styles/watercolor-thanks-240.gif"><img src="examples/styles/watercolor-thanks.gif" width="220" alt="10 水彩绘本：梅林本人动态表情，谢谢你呀"></a><br>「谢谢你呀」<br><sub>淡彩渗色，温柔地说谢谢</sub></td>
+    <td align="center" width="33%"><strong>11 · 国风水墨</strong><br><a href="examples/styles/ink-calm-240.gif"><img src="examples/styles/ink-calm.gif" width="220" alt="11 国风水墨：梅林本人动态表情，问题不大"></a><br>「问题不大」<br><sub>几笔浓淡墨，淡定有画面</sub></td>
+    <td align="center" width="33%"><strong>12 · 手作黏土</strong><br><a href="examples/styles/clay-off-duty-240.gif"><img src="examples/styles/clay-off-duty.gif" width="220" alt="12 手作黏土：梅林本人动态表情，脑子下班了"></a><br>「脑子下班了」<br><sub>手捏质感，累到软成一团</sub></td>
+  </tr>
+</table>
+
+这是一份可继续扩展的画风菜单，不是只能套用的 12 个模板。**可以更萌、更像真人、更夸张，也可以把喜欢的画风和自己的生活梗组合起来。** 新用户上传自己的照片，就以自己的形象制作。
+
+本次新增 8 款动态小样，与已有 4 款一起展示；所有动图都包含实际绘制的动作变化。[完整提示词与检查记录](examples/styles/production.json)随示例公开。
 
 ## 先看小样，选中了再做整套
 
@@ -36,7 +69,7 @@
 
 ```text
 用我上传的照片先做 4 种画风小样：
-软萌 Q 版、偏写实漫画、清线漫画、手作黏土。
+软萌 Q 版、毛绒玩偶、黑白暴漫、复古像素。
 每种都做一张“我来了”的透明动态 GIF，保留我的辨识特征。
 先给我编号对比，等我选好喜欢的画风，再做整套。
 ```
@@ -89,6 +122,13 @@
 | **清线漫画** | 吐槽、反差梗、戏很多的表情 | “像上面的导演梗，线条利落，表情夸张。” |
 | **潮玩 3D** | 可爱、震惊、无语、求抱抱 | “做成圆润的潮玩小人，别太写实。” |
 | **手作黏土** | 躺平、委屈、崩溃、软萌吐槽 | “有黏土质感，累到瘫成一团。” |
+| **日系动漫** | 热血加油、惊讶、燃起来 | “用赛璐璐画法，动作和表情像动画里的高光时刻。” |
+| **毛绒玩偶** | 鼓励、撒娇、安慰 | “像能抱起来的绒毛娃娃，眼镜和胡子也用布料表现。” |
+| **黑白暴漫** | 崩溃、无语、离谱反应 | “用简洁粗线，表情夸张，但一眼还能看出是我。” |
+| **复古像素** | 升级、通关、收到、出发 | “把我画成像素游戏角色，保留眼镜和发型轮廓。” |
+| **剪纸拼贴** | 夸夸、庆祝、有设计感的反应 | “用彩色纸片层叠出我的形象，能看见剪裁边缘。” |
+| **水彩绘本** | 感谢、晚安、温柔回复 | “淡淡的水彩和手绘感，表情自然亲切。” |
+| **国风水墨** | 淡定、悠闲、古风吐槽 | “用浓淡墨线和少量青绿点色，保留我的神态。” |
 | **个人情境与换装** | 旅行、工作、古装、兴趣爱好 | “用我的古装照做职场嘴替，用旅行照做出发梗。” |
 
 画风决定怎么画，照片决定主角是谁。脸型、眼镜、发型、胡须等辨识点会贯穿整套；不同台词配不同表情、手势和道具。
@@ -231,7 +271,7 @@ dist/                          可直接分享的技能 ZIP
 
 给朋友发送 [这个仓库地址](https://github.com/MerlinStudio1828/create-wechat-stickers) 即可；他可以阅读首页、看动图、安装技能，再上传自己的照片。反馈问题时请描述操作、预期与实际结果；有个人照片的示例可以先只提供不含隐私的截图。
 
-代码与流程文档使用 [MIT License](LICENSE)。`examples/` 和技能 `assets/` 中的人物图片是效果演示，不包含在 MIT 授权中；如需复用作者人物形象，请先联系作者。新用户应以自己的或已获授权的照片制作表情。素材来源和实际尺寸见 [示例来源记录](examples/provenance.json)。首页新增的清线漫画、潮玩 3D、黏土动态小样使用内置图像生成工具绘制独立动作，再本地排字和编码；完整提示词与检查记录见 [动态画风示例记录](examples/styles/production.json)。早先的静态画风稿仍保留在 `examples/showcase/`，其提示词见 [静态稿生成记录](examples/showcase/prompts.json)。
+代码与流程文档使用 [MIT License](LICENSE)。`examples/` 和技能 `assets/` 中的人物图片是效果演示，不包含在 MIT 授权中；如需复用作者人物形象，请先联系作者。新用户应以自己的或已获授权的照片制作表情。素材来源和实际尺寸见 [示例来源记录](examples/provenance.json)。首页新增的多画风动态小样使用内置图像生成工具绘制独立动作，再本地排字和编码；完整提示词与检查记录见 [动态画风示例记录](examples/styles/production.json)。早先的静态画风稿仍保留在 `examples/showcase/`，其提示词见 [静态稿生成记录](examples/showcase/prompts.json)。
 
 A Codex skill for turning your photos and everyday stories into expressive, personal stickers—in multiple visual styles, with animated GIFs and complete delivery assets.
 
