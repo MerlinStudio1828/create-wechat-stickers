@@ -1,13 +1,14 @@
 {
   "purpose": "Public workflow demonstration using the repository owner’s own single-person illustrated likeness, as authorized by the owner.",
   "identity_note": "These images are demo assets, not a default template identity. New sticker requests must use the new user’s own authorized photos and likeness.",
-  "handling": "Existing animated examples are copied byte-for-byte from finished artwork; the three new static style examples were generated with built-in image_gen and resized to 960px JPEGs. No original photographs, private filesystem paths, or conversation logs are included.",
+  "handling": "Existing animated examples are copied byte-for-byte from completed artwork. Three earlier static style examples remain in showcase/; three new styles/ animations were drawn with built-in image_gen, then locally aligned, typeset and encoded. No original photographs, private filesystem paths or conversation logs are included.",
   "limitations": [
     "This is a documentation showcase, not a complete submission album.",
-    "The three new style images are white-background static illustrations, not transparent animated GIFs.",
+    "The three JPGs in showcase/ are earlier static illustrations; styles/ contains actual animations with separate production records.",
     "The banner is from a different earlier personal style batch; the process samples are from the daily-remake batch.",
     "The six personal-story GIFs and the three original process GIFs come from pre-existing projects, not a claim that this repository regenerated those batches.",
-    "No 640×640 artist-avatar sample is included; cover.png is a 240×240 album cover, not a substitute."
+    "No 640×640 artist-avatar sample is included; cover.png is a 240×240 album cover, not a substitute.",
+    "Four styles/ examples are documented in styles/production.json with source distinctions, prompts, output hashes and review scope."
   ],
   "assets": [
     {
@@ -252,6 +253,216 @@
       "sha256": "189b0c9f15e26fc8855c1aca4bbbd3f35e1771be5f7627e58543d4e40ff42bff",
       "has_transparency": false,
       "prompt_record": "showcase/prompts.json"
+    },
+    {
+      "file": "styles/recognizable-director.gif",
+      "format": "GIF",
+      "width": 480,
+      "height": 480,
+      "bytes": 1009321,
+      "sha256": "aa8724ce100e9451dbfbe2560650f87efadb554823ccc388e63b2e99ff4a00cb",
+      "has_transparency": true,
+      "frames": 24,
+      "unique_decoded_frames": 22,
+      "duration_ms": 1200,
+      "loop": 0,
+      "frame_delay_ms": [
+        50
+      ],
+      "caption": "再来一条",
+      "kind": "existing animated sticker",
+      "source_description": "Previously completed personal creative-work sticker, item 12; both GIF sizes copied byte-for-byte.",
+      "note": "Six separately drawn poses plus local auxiliary motion; 22 unique decoded frames are not 22 separately drawn poses.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/recognizable-director-240.gif",
+      "format": "GIF",
+      "width": 240,
+      "height": 240,
+      "bytes": 323876,
+      "sha256": "6e1a419e9df03d221aba82d621ed58c1cfe8aa2b00c41afcfcadb83b805dfe73",
+      "has_transparency": true,
+      "frames": 24,
+      "unique_decoded_frames": 22,
+      "duration_ms": 1200,
+      "loop": 0,
+      "frame_delay_ms": [
+        50
+      ],
+      "caption": "再来一条",
+      "kind": "existing animated sticker",
+      "source_description": "Previously completed personal creative-work sticker, item 12; both GIF sizes copied byte-for-byte.",
+      "note": "Six separately drawn poses plus local auxiliary motion; 22 unique decoded frames are not 22 separately drawn poses.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/comic-one-more-take.gif",
+      "format": "GIF",
+      "width": 480,
+      "height": 480,
+      "bytes": 223908,
+      "sha256": "9e0f85154eebee02edd35872652409e672ece55328c367d0e378e8c1f0626d33",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 6,
+      "duration_ms": 2000,
+      "loop": 0,
+      "frame_delay_ms": [
+        50
+      ],
+      "caption": "再来亿条",
+      "kind": "new animated style sample",
+      "source_description": "New 清线漫画 animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/comic-one-more-take-240.gif",
+      "format": "GIF",
+      "width": 240,
+      "height": 240,
+      "bytes": 95072,
+      "sha256": "aa89383e2188e7ea08e3b31099334b4d2004ad67ba8db1fc33e13412ac2b7dd0",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 6,
+      "duration_ms": 2000,
+      "loop": 0,
+      "frame_delay_ms": [
+        50
+      ],
+      "caption": "再来亿条",
+      "kind": "new animated style sample",
+      "source_description": "New 清线漫画 animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/comic-one-more-take.png",
+      "format": "PNG",
+      "width": 240,
+      "height": 240,
+      "bytes": 25498,
+      "sha256": "f9d404ad16628b4dc3fb6d16619b065499f7108792a7e48f4db587c4097f3b57",
+      "has_transparency": true,
+      "caption": "再来亿条",
+      "kind": "static frame from new animation",
+      "source_description": "New 清线漫画 animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "Single static frame; not animated.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/toy-cpu.gif",
+      "format": "GIF",
+      "width": 480,
+      "height": 480,
+      "bytes": 307965,
+      "sha256": "a21bcc4ea3b01ca99d8a7ab24583bb5bde8e0b12c95d8edbcf8586b9680b856c",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 6,
+      "duration_ms": 2000,
+      "loop": 0,
+      "frame_delay_ms": [
+        50
+      ],
+      "caption": "CPU烧了",
+      "kind": "new animated style sample",
+      "source_description": "New 软萌潮玩 3D animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/toy-cpu-240.gif",
+      "format": "GIF",
+      "width": 240,
+      "height": 240,
+      "bytes": 122185,
+      "sha256": "8e485e695ab4bbdff3bdbd4373e7af38b61b39f7867f96e334aa643f7ed6e4ad",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 6,
+      "duration_ms": 2000,
+      "loop": 0,
+      "frame_delay_ms": [
+        50
+      ],
+      "caption": "CPU烧了",
+      "kind": "new animated style sample",
+      "source_description": "New 软萌潮玩 3D animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/toy-cpu.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 480,
+      "bytes": 60537,
+      "sha256": "2f4974c68bbacacc6b69788bc8025213c8e5af9c57daacd2eb0effdce96ca639",
+      "has_transparency": true,
+      "caption": "CPU烧了",
+      "kind": "static frame from new animation",
+      "source_description": "New 软萌潮玩 3D animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "Single static frame; not animated.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/clay-off-duty.gif",
+      "format": "GIF",
+      "width": 480,
+      "height": 480,
+      "bytes": 425483,
+      "sha256": "e5097f37bc7f5d9b894a1e98ac3b22a7e68a5945013a3d4e6447bb6fd7b10371",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 6,
+      "duration_ms": 2000,
+      "loop": 0,
+      "frame_delay_ms": [
+        50
+      ],
+      "caption": "脑子下班了",
+      "kind": "new animated style sample",
+      "source_description": "New 手作黏土 animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/clay-off-duty-240.gif",
+      "format": "GIF",
+      "width": 240,
+      "height": 240,
+      "bytes": 158129,
+      "sha256": "294eb8264adc61798f9a9838b3bf18528ed011938d073239bcaacf7f9ec1518c",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 6,
+      "duration_ms": 2000,
+      "loop": 0,
+      "frame_delay_ms": [
+        50
+      ],
+      "caption": "脑子下班了",
+      "kind": "new animated style sample",
+      "source_description": "New 手作黏土 animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "20 fps is the timing basis; 40 playback frames hold six separately drawn poses.",
+      "prompt_record": "styles/production.json"
+    },
+    {
+      "file": "styles/clay-off-duty.png",
+      "format": "PNG",
+      "width": 240,
+      "height": 240,
+      "bytes": 53457,
+      "sha256": "2133f457b437206a881e8033bb2cfa4997629dfece497a7eea5af8c72f46d62b",
+      "has_transparency": true,
+      "caption": "脑子下班了",
+      "kind": "static frame from new animation",
+      "source_description": "New 手作黏土 animation of Merlin based on his approved Avatar V2 and the earlier static joke illustration.",
+      "note": "Single static frame; not animated.",
+      "prompt_record": "styles/production.json"
     }
   ]
 }
