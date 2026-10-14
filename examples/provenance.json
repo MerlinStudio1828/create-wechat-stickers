@@ -1,0 +1,120 @@
+{
+  "purpose": "Public workflow demonstration using the repository owner’s own single-person illustrated likeness, as authorized by the owner.",
+  "identity_note": "These images are demo assets, not a default template identity. New sticker requests must use the new user’s own authorized photos and likeness.",
+  "handling": "All image files were copied byte-for-byte from existing artwork. No original photographs, private filesystem paths, or conversation logs are included.",
+  "limitations": [
+    "This is a small documentation demo, not a complete 8–24 item submission album.",
+    "The banner is from a different earlier personal style batch and should be described as a separate package-asset example.",
+    "No 640×640 artist-avatar sample is included; cover.png is a 240×240 album cover, not a substitute."
+  ],
+  "assets": [
+    {
+      "file": "01-coffee.gif",
+      "caption": "时区续命",
+      "source_description": "Finished transparent animated sticker, personal daily remake, item 01.",
+      "note": "Coffee and time-zone joke: tired → sip → energized → jump → settle.",
+      "format": "GIF",
+      "width": 240,
+      "height": 240,
+      "bytes": 161738,
+      "sha256": "d34976153108e2468a012c0932ac4a8d48e54dc030a63aad343b6a9fe5a88631",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 8,
+      "duration_ms": 2000,
+      "loop": 0
+    },
+    {
+      "file": "02-lying-win.gif",
+      "caption": "我要躺赢",
+      "source_description": "Finished transparent animated sticker, personal daily remake, item 08.",
+      "note": "Gaming in a sleeping bag: playing → victory gesture → relaxing.",
+      "format": "GIF",
+      "width": 240,
+      "height": 240,
+      "bytes": 177149,
+      "sha256": "bc512dd2e949f33d9dfd2195be0700feb5e18da8b408a0d3b52f55badac05eca",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 8,
+      "duration_ms": 2000,
+      "loop": 0
+    },
+    {
+      "file": "03-review-this-version.gif",
+      "caption": "请看这一版",
+      "source_description": "Finished transparent animated sticker, personal daily remake, item 03.",
+      "note": "Presenting a video-editing timeline under a serving lid.",
+      "format": "GIF",
+      "width": 240,
+      "height": 240,
+      "bytes": 160683,
+      "sha256": "77c296cb0e0ae3c196a7a02f2a5393d270ddaa3be75b5ad5a6b5de54753c8d5e",
+      "has_transparency": true,
+      "frames": 40,
+      "unique_decoded_frames": 8,
+      "duration_ms": 2000,
+      "loop": 0
+    },
+    {
+      "file": "pose-sheet.png",
+      "caption": null,
+      "source_description": "Original AI-generated transparent 4×2 pose sheet for the personal coffee sticker.",
+      "note": "Eight individually illustrated AI-generated poses; the distributed GIF adds a caption and holds these poses for timing.",
+      "format": "PNG",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1548176,
+      "sha256": "ee9c105bd8efc8a40c3570b1450757e300c8c52f603a1d22b07f85caf9babf49",
+      "has_transparency": true
+    },
+    {
+      "file": "light-dark.png",
+      "caption": "时区续命",
+      "source_description": "Existing light/dark QA contact sheet for the personal coffee sticker.",
+      "note": "All eight poses and caption inspected on a light and dark background.",
+      "format": "PNG",
+      "width": 1920,
+      "height": 480,
+      "bytes": 755914,
+      "sha256": "619112767d5e7fedd34489093a17d9d7cad9e96727abaef7b4ad178424ebb92a",
+      "has_transparency": false
+    },
+    {
+      "file": "cover.png",
+      "caption": null,
+      "source_description": "Existing transparent cover from the personal daily-remake album.",
+      "note": "Single-person no-text cover example, not an artist-avatar specification.",
+      "format": "PNG",
+      "width": 240,
+      "height": 240,
+      "bytes": 63017,
+      "sha256": "a8f0715220bbc8626d44fc995246220ad5bb361203a52b8eebaff5a1f85bd5a5",
+      "has_transparency": true
+    },
+    {
+      "file": "chat-icon.png",
+      "caption": null,
+      "source_description": "Existing transparent chat icon from the personal daily-remake album.",
+      "note": "Simplified 50-pixel face icon.",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "bytes": 5224,
+      "sha256": "c484e1437dbe9012cad5e1b55c6fcf54fd0c4e72547c9dc76a11a98503d45703",
+      "has_transparency": true
+    },
+    {
+      "file": "banner.jpg",
+      "caption": null,
+      "source_description": "Existing 750×400 no-text banner from an earlier personal daily-and-creative-work album.",
+      "note": "This banner demonstrates a complete scene in an earlier, more realistic Q style; it is not from the same rendered batch as the three GIF examples.",
+      "format": "JPEG",
+      "width": 750,
+      "height": 400,
+      "bytes": 98918,
+      "sha256": "0c0c70df087606ec489d41eb676c2da7c6033ca626229367a7fa431fb5e2faa2",
+      "has_transparency": false
+    }
+  ]
+}
